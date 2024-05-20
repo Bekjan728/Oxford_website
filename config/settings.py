@@ -33,6 +33,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_yasg',
+    
+    'apps.account',
+    'apps.academics',
+    'apps.admissions',
+    'apps.news',
+
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
 ]
@@ -105,6 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 AUTH_USER_MODEL = 'account.User'
+
 
 
 LANGUAGE_CODE = 'en-us'
