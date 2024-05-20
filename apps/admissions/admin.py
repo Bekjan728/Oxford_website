@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import (
+    AdmissionsPage, 
+    AdmissionsImages,
+    AdmissionsInfo,
+    AdmissionsInfoImages
+)
+
+admin.site.register([AdmissionsPage, AdmissionsImages, AdmissionsInfo, AdmissionsInfoImages])
