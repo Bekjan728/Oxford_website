@@ -36,6 +36,9 @@ INSTALLED_APPS = [
     'apps.academics',
     'apps.admissions',
     'apps.news',
+    'apps.information',
+    'apps.faculty',
+    'apps.questions',
 
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
