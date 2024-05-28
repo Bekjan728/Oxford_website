@@ -22,7 +22,7 @@ class ContactUs(models.Model):
     )
 
     name = models.CharField(max_length=30)
-    topic = models.CharField(max_length=10 choices=TOPIC_CHOICES)
+    topic = models.CharField(max_length=10, choices=TOPIC_CHOICES)
     phone = models.CharField(max_length=13)
     email = models.EmailField()
     question = models.CharField(max_length=400)
