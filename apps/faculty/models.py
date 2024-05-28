@@ -9,6 +9,8 @@ class Department(models.Model):
     about = models.CharField(max_length=400)
     phone = models.CharField(max_length=13)
     email = models.EmailField()
+    head = models.CharField(max_length=30)
+
     head = models.CharField(max_length=20)
     
     def __str__(self):
